@@ -11,7 +11,7 @@ terraform {
     organization = "ACME-Corp_Demo"
 
     workspaces {
-      name = "learn-terraform"
+      name = "acme-prod-infra-azure"
     }
   }
 
