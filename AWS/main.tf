@@ -6,6 +6,14 @@ terraform {
     }
   }
 
+  cloud {
+    organization = "ACME-Corp_Demo"
+
+    workspaces {
+      name = "acme-prod-infra-aws"
+    }
+  }
+
   required_version = ">= 1.2.0"
 }
 
